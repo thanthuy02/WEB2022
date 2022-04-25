@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.clear{
+    clear: both;
+}
+
+.clearfix::after{
+    content: ' ';
+    clear: both;
+}
+
+#menu{
+    background-color: gray;
+}
+#menu li{
+    display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    border: 3px solid transparent;
+}
+
+#menu li a:hover {
+    border-color: black;
+}
+
+
